@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    margin-left: 15%;
+    margin-top: 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: skyblue;
+    color: white;
+}
+
+.centered{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h2 {
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 3rem;
+    /* -webkit-text-stroke: 1px #FF5200; */
+}
+
+.contactus{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns:10% 40% 50%;
+    align-items: center;
+}
+.contact-form div form{
+    padding-left: 20%;
+}
+
+
+.donate-btn {
+    color: white;
+    background-color: #FA9905;
+    border: solid 2px #FF5200;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.donate-btn:hover {
+    background-color: white;
+    color: #FF5200;
+}
+
+
+.footer-ref{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 31px;
+}
+.footer-ref a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.heading {
+    margin-left: 7%;
+    display: inline-block;
+    color: #FA9905;
+}
+.info{
+    text-align: center;
+    font-size: 2rem;
+}
+.middle-contact{
+
+    background-image: url("contact-back.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+.middle-about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 2rem;
+    width: 100%;
+    background-color: #FFE3E3;
+}
+.ourmission{
+    text-align: center;
+}
+
+
+.topnav{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: auto;
+}
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 31px 40px;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover,a.active {
+    background-color: #FFE194;
+    color: #FF5200;
+
+}
